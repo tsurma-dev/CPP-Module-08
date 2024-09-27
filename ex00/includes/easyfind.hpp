@@ -11,7 +11,7 @@ int easyfind(T& hayStack, int needle) {
 	iterator = std::find(hayStack.begin(), hayStack.end(), needle);
 	if (iterator == hayStack.end())
 		return (-1);
-	return (distance(hayStack.begin(), iterator));
+	return (std::distance(hayStack.begin(), iterator));
 }
 
 #endif

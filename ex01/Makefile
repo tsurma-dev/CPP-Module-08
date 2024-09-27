@@ -1,9 +1,10 @@
 CXX = c++
 CXXFLAGS = -Wall -Werror -Wextra -std=c++98
-NAME = easyfind.out
+NAME = range.out
 MAKEFLAGS = --no-print-directory
 
-SRC =	srcs/main.cpp
+SRC =	srcs/main.cpp\
+		srcs/span.cpp
 
 OBJ = $(SRC:.cpp=.o)
 
